@@ -1,3 +1,7 @@
+.add-contact .card-body {
+  display: none;
+}
+
 .App {
   text-align: center;
 }
