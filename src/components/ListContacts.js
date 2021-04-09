@@ -16,9 +16,8 @@ class ListContacts extends Component {
                   <AiOutlinePhone /> {item.phone}
                 </span>
                 <div className="ml-auto">
-                  <button className="contact-delete btn btn-sm btn-danger"
-                    onClick={()=> this.props.deleteContact(item)}>
-                  <AiOutlineDelete />
+                  <button className="contact-delete btn btn-sm btn-danger" id="delete-contact" value="delete"
+                    onClick={()=> this.props.deleteContact(item)}>Delete
                   </button>
                 </div>
               </div>

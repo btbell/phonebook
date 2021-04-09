@@ -59,6 +59,7 @@ class AddContact extends Component {
           		<form id="cntctForm" noValidate onSubmit={this.handleAdd}>
             		<div className="form-group form-row">
               		<label
+                    for="name"
                 		className="col-md-2 col-form-label text-md-left"
                 		htmlFor="name"
                 		readOnly
@@ -67,6 +68,7 @@ class AddContact extends Component {
               </label>
               <div className="col-md-10">
                 <input
+                  id="name"
                   type="text"
                   className="form-control"
                   name="name"
@@ -79,6 +81,7 @@ class AddContact extends Component {
 
             <div className="form-group form-row">
               <label
+                for="phone"
                 className="col-md-2 col-form-label text-md-left"
                 htmlFor="phone"
               >
@@ -86,6 +89,7 @@ class AddContact extends Component {
               </label>
               <div className="col-md-10">
                 <input
+                  id="phone"
                   type="text"
                   className="form-control"
                   name="phone"
